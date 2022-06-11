@@ -1,6 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, {useState } from "react";
 import { jokeCats } from "../../../utils/jokeCats";
 import './JokeDisplay.css'
+import '../../Displays/Displays.css'
+
 export default function JokeDisplay(props) {
   const [catString, setCatString] = useState("");
   const [singleJoke, setSingleJoke] = useState("");
@@ -89,7 +91,7 @@ export default function JokeDisplay(props) {
             </div>
           </div>
           <div className="row p-4 d-flex justify-content-center">
-            <button className="joke-btn" onClick={() => requestJoke()}>
+            <button className="request-btn" onClick={() => requestJoke()}>
               Request Joke
             </button>
           </div>
