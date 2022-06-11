@@ -1,0 +1,16 @@
+.tl-corner{ 
+    border-bottom-right-radius: 2em;
+    z-index: 20;
+  }
+  .tr-corner{ 
+    border-bottom-left-radius: 2em;
+    z-index: 20;
+  }
+  .bl-corner{ 
+    border-top-right-radius: 2em;
+    z-index: 20;
+  }
+  .br-corner{ 
+    border-top-left-radius: 2em;
+    z-index: 20;
+  }

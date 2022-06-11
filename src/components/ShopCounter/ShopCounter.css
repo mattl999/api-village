@@ -1,0 +1,41 @@
+.countertop{
+    background-color: rgb(62, 41, 15);
+    border-bottom:2em solid rgb(46, 30, 11);
+    z-index:40;
+}
+.counter {
+    background-color: rgb(93, 75, 56) ;
+    z-index:39;
+}
+
+.shopkeeper{
+    max-height:400px;
+    bottom:7em;
+    right:4em;
+}
+#f-meme{
+    filter:sepia(30%) saturate(300%) brightness(100%) hue-rotate(317deg);
+}
+#f-joke{
+    filter: sepia(0%) saturate(200%) brightness(90%) hue-rotate(113deg);
+}
+.pixel-font{
+    font-family: 'Press Start 2P', cursive;
+}
+.shop-sign{
+    
+    /* border-radius: 1em; */
+    border:12px solid ; 
+    font-size:2em;   
+    color: rgb(18, 18, 18);
+
+}
+.display{
+    height: 100%;
+    border:11px solid ;    
+    background-color: rgb(18, 18, 18);
+}
+.full{
+    height:100%;
+    width: 100%;
+}

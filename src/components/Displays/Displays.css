@@ -1,0 +1,16 @@
+.sub-head{
+    color: rgb(182, 205, 124);
+    line-height: 2rem;
+    font-size: 1.6vmin;
+    overflow: auto;
+}
+.warning{
+    font-size: 1.4vmin;
+}
+.sec-header{
+    color: white;
+    text-decoration: underline;
+}
+li{
+    list-style: none;
+}

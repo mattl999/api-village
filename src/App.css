@@ -1,38 +1,35 @@
 .App {
   text-align: center;
+  height:100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-right{
+  right:0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-middle{
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+  width:min-content
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-middle:hover{
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.grassy{
+  background: url(../public/img/grass1.jpg);
+  background-size: 150px 150px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.path{
+  background: url(../public/img/dirt-2.png);
+  background-size: 70%;
+  background-size: 30px 30px;
+}
+.icon{
+  
+  max-height: 25px;
+  
+}
+.link-style{
+  color:white !important;
+  text-decoration: none;
 }

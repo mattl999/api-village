@@ -1,0 +1,18 @@
+Youtube Api- embed a few of my favourite youtube vieos
+
+Google Maps Api/Weather Station : {
+    url: "",
+    purpose: "Get prompted for browser to access location and show current weather"
+} 
+Pet-Store : {
+    Docs: https://dog.ceo/dog-api/
+}
+Joke-Merchant : {
+    Docs: https://sv443.net/jokeapi/v2/
+}
+Crypto Obervatory : {
+    Docs
+}
+Twitter-Api: Display only elon Musk's tweets.
+
+MailChimp Api- compose an email  
