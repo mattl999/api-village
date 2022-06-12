@@ -9,11 +9,13 @@ import ResearchDisplay from "./components/Displays/ResearchDisplay/ResearchDispl
 function App() {
   const [coins, setCoins] = useState(500);
 
-  let makePurchase = (amt) => {
-    setCoins(coins - amt);
+  let makePurchase =(amt) => {
+    let curCoins = coins
+    setCoins(curCoins - amt)  
   };
+  
   const researchStyle = {
-    wp: "rgb(129, 102, 146)",
+    wp: "rgb(59 59 96)",
     sc: "rgb(149, 108, 188)",
     bc: "blueviolet",
     filter: "f-meme",
@@ -52,7 +54,7 @@ function App() {
               name="Joke Merchant"
               signName="JokeStop"
               styling={jokeStyle}
-              display={<JokeDisplay makePurchase={makePurchase} />}
+              display={<JokeDisplay  makePurchase={makePurchase} />}
             />
           }
         ></Route>

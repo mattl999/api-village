@@ -20,7 +20,7 @@ export default function ShopCounter(props) {
         >
           <div className="col-8 p-5 ">
             <div
-              className="container display text-light p-3 d-flex flex-column align-items-center justify-content between"
+              className="container display text-light p-3 d-flex flex-column align-items-center justify-content between height-limit-lg"
               style={{ borderColor: props.styling.bc }}
             >
               <div className="row">

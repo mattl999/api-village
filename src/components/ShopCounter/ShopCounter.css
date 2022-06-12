@@ -39,3 +39,6 @@
     height:100%;
     width: 100%;
 }
+.height-limit-lg{
+    max-height: 66vh;
+}

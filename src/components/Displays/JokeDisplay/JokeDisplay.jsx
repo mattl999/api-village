@@ -70,7 +70,7 @@ export default function JokeDisplay(props) {
         </span>{" "}
       </div>
       <div className="row h-75 ">
-        <div className="col-5  d-flex flex-column">
+        <div className="col-5  d-flex flex-column pt-4">
           <div className="sec-header mb-4">Categories:</div>
           <div className="full alignment-grid">
             <div className="full d-flex flex-column justify-content-evenly align-items-start py-2 cat-list">
