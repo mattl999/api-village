@@ -6,6 +6,8 @@ import { Routes, Route } from "react-router-dom";
 import ShopCounter from "./components/ShopCounter/ShopCounter";
 import JokeDisplay from "./components/Displays/JokeDisplay/JokeDisplay";
 import ResearchDisplay from "./components/Displays/ResearchDisplay/ResearchDisplay"
+import PetDisplay from "./components/Displays/PetDisplay/PetDisplay"
+
 function App() {
   const [coins, setCoins] = useState(500);
 
@@ -26,6 +28,12 @@ function App() {
     bc: "rgb(29 173 70)",
     filter: "f-joke",
   };
+  const petStyle = {
+    wp: "rgb(58 102 122)",
+    sc: "rgb(99 231 176)",
+    bc: "rgb(29 173 70)",
+    filter: "f-joke",
+  }
   return (
     <div className="App">
       <nav class="navbar-dark bg-dark justify-content-between position-absolute opacity-75 px-1">
@@ -66,6 +74,17 @@ function App() {
               signName="the Research Hut"
               styling={researchStyle}
               display = {<ResearchDisplay makePurchase={makePurchase} />}
+            />
+          }
+        ></Route>
+        <Route
+          path="/pets"
+          element={
+            <ShopCounter
+              name="Dog Depot"
+              signName="Dog Depot"
+              styling={petStyle}
+              display = {<PetDisplay makePurchase={makePurchase} />}
             />
           }
         ></Route>

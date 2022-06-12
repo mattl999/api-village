@@ -1,0 +1,11 @@
+.breed-select {
+    background-color: rgb(18, 18, 18);
+    color:aliceblue;
+    width: fit-content;
+    height: 30px;
+}
+.breed-thumb-color::-webkit-scrollbar-thumb {
+    background-color: aliceblue; 
+    /* roundness ofsthe scroll thumb */
+     /* creates padding arstnd scroll thumb */
+}

@@ -7,7 +7,6 @@ export default function ResearchDisplay(props) {
   const [queryWord, setQueryWord] = useState("");
   const [status, setStatus] = useState("Waiting for request");
   const scrollDiv = React.createRef();
-  const inputRef = useRef();
 
   const requestImgs = async (e) => {
     e.preventDefault();
@@ -39,10 +38,7 @@ export default function ResearchDisplay(props) {
     e.preventDefault();
     setQueryWord(e.target.value);
   };
-  const checkref = () => {
-    console.log(scrollDiv);
-    console.log(inputRef);
-  };
+
   useEffect(() => {
     scrollDiv.current.scrollTop = 0;
   }, [imgArr]);
@@ -60,7 +56,6 @@ export default function ResearchDisplay(props) {
           </div>
           <form className="row mx-0 my-3 px-0 h-50 d-flex flex-column justify-content-between align-items-center">
             <input
-              ref={inputRef}
               type="text"
               value={queryWord}
               name="queryWord"

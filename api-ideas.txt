@@ -15,4 +15,7 @@ Crypto Obervatory : {
 }
 Twitter-Api: Display only elon Musk's tweets.
 
+Possibly use Listly again (research hut) for the movie theatre: https://list.ly/api/docs#meta-search-search-videos
+
+
 MailChimp Api- compose an email  
