@@ -7,7 +7,9 @@ import ShopCounter from "./components/ShopCounter/ShopCounter";
 import JokeDisplay from "./components/Displays/JokeDisplay/JokeDisplay";
 import ResearchDisplay from "./components/Displays/ResearchDisplay/ResearchDisplay";
 import PetDisplay from "./components/Displays/PetDisplay/PetDisplay";
-import WeatherDisplay from "./components/Displays/WeatherDisplay/WeatherDisplay"
+import WeatherDisplay from "./components/Displays/WeatherDisplay/WeatherDisplay";
+import MovieDisplay from "./components/Displays/MovieDisplay/MovieDisplay";
+import NewsDisplay from "./components/Displays/NewsDisplay/NewsDisplay"
 
 function App() {
   const [coins, setCoins] = useState(500);
@@ -57,6 +59,27 @@ function App() {
     },
     filter: "f-joke",
   };
+  const movieStyle = {
+    wp: "rgb(58 102 122)",
+    sc: "rgb(99 231 176)",
+    bc: "rgb(29 173 70)",
+    fc: {
+      prim: "rgb(85 156 189)",
+      sec: "",
+    },
+    filter: "f-joke",
+  };
+  const newsStyle = {
+    wp: "rgb(58 102 122)",
+    sc: "rgb(99 231 176)",
+    bc: "rgb(29 173 70)",
+    fc: {
+      prim: "rgb(85 156 189)",
+      sec: "",
+    },
+    filter: "f-joke",
+  };
+
   return (
     <div className="App">
       <nav class="navbar-dark bg-dark justify-content-between position-absolute opacity-75 px-1">
@@ -137,6 +160,40 @@ function App() {
                 <WeatherDisplay
                   fontColor={weatherStyle.fc}
                   borderColor={weatherStyle.bc}
+                  makePurchase={makePurchase}
+                />
+              }
+            />
+          }
+        ></Route>
+        <Route
+          path="/movies"
+          element={
+            <ShopCounter
+              name="Movie Critic"
+              signName="the Video Store"
+              styling={movieStyle}
+              display={
+                <MovieDisplay
+                  fontColor={movieStyle.fc}
+                  borderColor={movieStyle.bc}
+                  makePurchase={makePurchase}
+                />
+              }
+            />
+          }
+        ></Route>
+        <Route
+          path="/news"
+          element={
+            <ShopCounter
+              name="News Analyst"
+              signName="the News Stand"
+              styling={newsStyle}
+              display={
+                <NewsDisplay
+                  fontColor={newsStyle.fc}
+                  borderColor={newsStyle.bc}
                   makePurchase={makePurchase}
                 />
               }

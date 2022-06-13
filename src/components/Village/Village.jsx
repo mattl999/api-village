@@ -19,7 +19,7 @@ export default function Village() {
         <div className="row flex-grow-1">
           <Store shopName="Movie Theatre" link="movies" isRight={false} />
           <PathIntersection />
-          <Store shopName="Twitter Analyst" link="twitter" isRight={true} />
+          <Store shopName="News Stand" link="news" isRight={true} />
         </div>
       </div>
     </>

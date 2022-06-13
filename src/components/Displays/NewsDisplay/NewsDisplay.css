@@ -1,0 +1,9 @@
+.tweet-scroll{
+    overflow-y: auto;
+    
+}
+.tweet-thumb-color::-webkit-scrollbar-thumb {
+    background-color: aliceblue;
+    /* roundness ofsthe scroll thumb */
+    /* creates padding arstnd scroll thumb */
+  }

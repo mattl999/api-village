@@ -5,7 +5,7 @@ import { getCurrentLatLng } from "../../../utils/getCurrentLatLng";
 import { getCurWeatherByLatLng, capitalize } from "../../../utils/weather-api";
 import Map from "./Map";
 
-export default function ResearchDisplay(props) {
+export default function WeatherDisplay(props) {
   const [coords, setCoords] = useState(null);
   const [weather, setWeather] = useState({
     temp: null,
