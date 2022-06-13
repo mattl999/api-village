@@ -1,4 +1,4 @@
-const getCurWeatherByLatLng = async (lat, lng) => {
+export const getCurWeatherByLatLng = async (lat, lng) => {
   return await fetch(
     `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lng}&units=metric&appid=745e835f65d91b63b8c12db1df1ba019`
   ).then((res) => res.json());
@@ -8,7 +8,7 @@ const getCurWeatherByLatLng = async (lat, lng) => {
   // if (!result.ok) throw new Error("Fetch failed - Bad request");
   // return result;
 };
-function capitalize(str) {
+export function capitalize(str) {
   let arr = str.split(" ");
   arr.forEach((word, i) => {
     //
@@ -16,7 +16,4 @@ function capitalize(str) {
   });
   return arr.join(" ");
 }
-module.exports = {
-  getCurWeatherByLatLng,
-  capitalize
-};
+

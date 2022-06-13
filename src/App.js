@@ -12,7 +12,7 @@ import MovieDisplay from "./components/Displays/MovieDisplay/MovieDisplay";
 import NewsDisplay from "./components/Displays/NewsDisplay/NewsDisplay"
 
 function App() {
-  const [coins, setCoins] = useState(500);
+  const [coins, setCoins] = useState(1000);
 
   let makePurchase = (amt) => {
     let curCoins = coins;
