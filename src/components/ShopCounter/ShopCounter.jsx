@@ -24,7 +24,7 @@ export default function ShopCounter(props) {
               style={{ borderColor: props.styling.bc }}
             >
               <div className="row">
-              <h2 className="pixel-font">Welcome to {props.signName}!</h2>
+              <h2 className="pixel-font ">Welcome to {props.signName}!</h2>
               </div>
               <div className="row full pixel-font">
               {props.display}

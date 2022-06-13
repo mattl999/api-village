@@ -7,6 +7,9 @@ Google Maps Api/Weather Station : {
 Pet-Store : {
     Docs: https://dog.ceo/dog-api/
 }
+DOG-API ---> https://dog.ceo/api/breed/${breed}/images/random   for single breed
+DOG-API ---> https://dog.ceo/api/breeds/image/random            for random search
+
 Joke-Merchant : {
     Docs: https://sv443.net/jokeapi/v2/
 }

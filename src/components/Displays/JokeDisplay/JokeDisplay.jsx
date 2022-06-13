@@ -60,7 +60,7 @@ export default function JokeDisplay(props) {
   };
   return (
     <div className="container ">
-      <div className="row h-25 p-3 sub-head">
+      <div className="row h-25 p-3 sub-head" style={{color: props.fontColor.prim}}>
         {" "}
         For just 20 coins I'll tell you a real knee-slapper! Just pick the kind
         of jokes you wanna hear and I'll do the rest! <br />

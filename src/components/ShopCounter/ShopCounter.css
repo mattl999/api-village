@@ -19,6 +19,9 @@
 #f-joke{
     filter: sepia(0%) saturate(200%) brightness(90%) hue-rotate(113deg);
 }
+#f-pet{
+    filter: sepia(50%) saturate(130%) brightness(90%) hue-rotate(50deg)
+}
 .pixel-font{
     font-family: 'Press Start 2P', cursive;
 }

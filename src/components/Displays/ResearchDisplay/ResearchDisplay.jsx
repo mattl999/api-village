@@ -44,14 +44,14 @@ export default function ResearchDisplay(props) {
   }, [imgArr]);
   return (
     <div className="container  ">
-      <div className="row h-25 px-3 pt-2 research-sub-head">
+      <div className="row h-25 px-5 pt-4 pt-2 sub-head" style={{color: props.fontColor.prim}}>
         {" "}
         We conduct important reasearch here, mostly by looking up cool images.
         You can try too, but it'll cost ya 40 coins. <br />
       </div>
       <div className="row h-75 ">
         <div className="col-5  d-flex flex-column">
-          <div className="row h-50 p-5 d-flex align-items-end">
+          <div className="row h-50 p-5 d-flex align-items-end" style={{color: props.fontColor.sec}}>
             Type whatever you wanna know about here:{" "}
           </div>
           <form className="row mx-0 my-3 px-0 h-50 d-flex flex-column justify-content-between align-items-center">
@@ -86,7 +86,7 @@ export default function ResearchDisplay(props) {
               className="container d-flex justify-content-center align-items-center full"
               ref={scrollDiv}
             >
-              <h4 className="research-sub-head"> {status}... </h4>
+              <h4 className="sub-head" style={{color: props.fontColor.prim}}> {status}... </h4>
             </div>
           )}
           {/* <button onClick={checkref}>check ref</button> */}

@@ -1,11 +1,69 @@
-.breed-select {
-    background-color: rgb(18, 18, 18);
-    color:aliceblue;
-    width: fit-content;
-    height: 30px;
+:root {
+  --breed-clr: rgb(175, 138, 94);
+  --rndm-clr: rgb(175, 138, 94);
+  --hov-clr: rgb(187, 163, 133);
 }
+
+.breed-select {
+  background-color: rgb(18, 18, 18);
+  color: aliceblue;
+  width: fit-content;
+  height: 30px;
+}
+.breed-select:hover {
+  background-color: rgb(29, 29, 29);
+}
+.breed-select:active {
+  background-color: rgb(18, 18, 18);
+  border: none;
+}
+
 .breed-thumb-color::-webkit-scrollbar-thumb {
-    background-color: aliceblue; 
-    /* roundness ofsthe scroll thumb */
-     /* creates padding arstnd scroll thumb */
+  background-color: aliceblue;
+  /* roundness ofsthe scroll thumb */
+  /* creates padding arstnd scroll thumb */
+}
+.breed-btn {
+  color: var(--breed-clr);
+  border-color: var(--breed-clr);
+}
+.rndm-btn {
+  color: var(--rndm-clr);
+  border-color: var(--rndm-clr);
+}
+.breed-btn:hover {
+  color: var(--hov-clr);
+  border-color: var(--hov-clr);
+}
+.rndm-btn:hover {
+  color: var(--hov-clr);
+  border-color: var(--hov-clr);
+}
+.dog-img {
+  max-width: 90%;
+  max-height: 90%;
+  height: auto;
+  min-height: 70%;
+  /* border:2px solid cornsilk */
+}
+.restrict-height {
+  max-height: max-content;
+}
+.dog-frame {
+    display: grid;
+    grid-template-rows: 9fr 1fr;
+}
+.caption {
+    grid-row: 2;
+    font-size: 2.3vh;
+}
+.dog-img-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70%;
+    max-height: 90%;
+    width: 100%;
+    overflow:hidden;
+    grid-row: 1;
 }
