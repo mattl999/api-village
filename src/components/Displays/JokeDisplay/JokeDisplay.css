@@ -1,0 +1,23 @@
+
+
+
+.alignment-grid{
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.cat-list{
+    grid-column: 2;
+}
+.single{
+    color:rgb(131, 176, 238);
+}
+.setup{
+    color:rgb(225, 127, 110)
+}
+.delivery{
+    color:rgb(127, 238, 143);
+    font-size: 1.2rem
+}
+.joke-container{
+    overflow-y:auto;
+}

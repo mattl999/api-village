@@ -1,0 +1,12 @@
+.shop{
+    
+    position:absolute;
+    height:27%;
+    z-index:30;
+}
+.right{
+    right:19%;    
+}
+.left{
+    left:19%;    
+}

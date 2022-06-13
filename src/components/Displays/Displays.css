@@ -1,0 +1,42 @@
+:root {
+    --border-color: 
+}
+
+.warning {
+  font-size: 1.4vmin;
+}
+.sec-header {
+  color: white;
+  text-decoration: underline;
+}
+li {
+  list-style: none;
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 19px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.05);
+  
+  /* color of the tracking area */
+}
+.request-btn{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: white;
+    color:white;
+    width: fit-content;
+}
+.request-btn:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: white;
+}
+.sub-head{
+  line-height: 2rem;
+  font-size: 1.6vmin;
+  overflow: auto;
+}
+.center {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}

@@ -1,0 +1,16 @@
+
+.research-img{
+    max-width: 90%;
+    max-height: 35vh;
+}
+.img-container{
+    overflow-y: scroll;
+}
+.height-limit{
+    max-height: 38vh;
+}
+.research-thumb-color::-webkit-scrollbar-thumb {
+    background-color: rgb(85 156 189); 
+    /* roundness ofsthe scroll thumb */
+     /* creates padding arstnd scroll thumb */
+}
