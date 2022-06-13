@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/api-village/static/css/main.a446fff2.css",
-    "main.js": "/api-village/static/js/main.d412d003.js",
-    "static/js/787.a8157aa6.chunk.js": "/api-village/static/js/787.a8157aa6.chunk.js",
+    "main.js": "/api-village/static/js/main.d071ab58.js",
+    "static/js/787.e04a3c95.chunk.js": "/api-village/static/js/787.e04a3c95.chunk.js",
     "static/media/dirt-2.png": "/api-village/static/media/dirt-2.5ba9a7756fe4e328534c.png",
     "static/media/grass1.jpg": "/api-village/static/media/grass1.f863f3f27bcbf69bf977.jpg",
     "index.html": "/api-village/index.html",
     "main.a446fff2.css.map": "/api-village/static/css/main.a446fff2.css.map",
-    "main.d412d003.js.map": "/api-village/static/js/main.d412d003.js.map",
-    "787.a8157aa6.chunk.js.map": "/api-village/static/js/787.a8157aa6.chunk.js.map"
+    "main.d071ab58.js.map": "/api-village/static/js/main.d071ab58.js.map",
+    "787.e04a3c95.chunk.js.map": "/api-village/static/js/787.e04a3c95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a446fff2.css",
-    "static/js/main.d412d003.js"
+    "static/js/main.d071ab58.js"
   ]
 }
