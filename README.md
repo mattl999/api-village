@@ -13,8 +13,8 @@ This small project was created for the explicit purpose of practicing asnynchron
 https://mattl999.github.io/api-village/ 
 
 ## How to Use:
-To start, click on one of the buildings, and then follow the instructions once in the shop. 
-To return to the homepage, click the "return to village button".
+- To start, click one of the buildings!
+- To return to the town center, click "return to village".
 
 
 ## Notes: 
