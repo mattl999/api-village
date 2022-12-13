@@ -18,4 +18,4 @@ https://mattl999.github.io/api-village/
 
 
 ## Notes: 
-This app was created as a practice excercise. It is not polished, nor is it designed responsively. It will not display properly on smaller screens.
+This app was created as a practice excercise. It is not polished, nor is it designed responsively. It will not display properly on smaller screens. It is also not maintained, and certain APIs may not work if they are changed in the future.
